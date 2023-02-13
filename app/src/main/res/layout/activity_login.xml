@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_Activity">
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="114dp"
+        android:autofillHints=""
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:filterTouchesWhenObscured="false"
+        android:hint="@string/Username"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="114dp"
+        android:autofillHints=""
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:filterTouchesWhenObscured="false"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:translationZ="5dp"
+        android:stateListAnimator="@null"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="114dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:filterTouchesWhenObscured="false"
+        android:hint="@string/signin"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,TextViewEdits" />
+
+    <CheckBox
+        android:id="@+id/btnSave"
+        android:layout_width="139dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="114dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:filterTouchesWhenObscured="false"
+        android:hint="@string/save"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,TextViewEdits" />
+
+    <TextView
+        android:id="@+id/txtSignUp"
+        android:layout_width="291dp"
+        android:layout_height="60dp"
+        tools:ignore="MissingConstraints,TextViewEdits"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
